@@ -1,0 +1,36 @@
+\begin{table*}[!ht]
+\centering
+\caption{Randomised scenarios (5 replications each; time limit 1{,}800~s for the MILP and for the CG loop). Mean and standard deviation of the solution time, and mean gap (\%) to the best upper bound (smaller of the MILP bound and the CG bound of each instance). Scenarios ordered by number of bases and aircraft.\label{tab5}}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}ccc rrr rrr rrr@{\extracolsep\fill}}
+\toprule
+\multicolumn{3}{@{}c}{\textbf{Scenario}} & \multicolumn{3}{c}{\textbf{MILP}} & \multicolumn{3}{c}{\textbf{CG}} & \multicolumn{3}{c@{}}{\textbf{CG-TS}} \\
+\cmidrule{1-3}\cmidrule{4-6}\cmidrule{7-9}\cmidrule{10-12}
+\textbf{Aircr.} & \textbf{Areas} & \textbf{Bases} & \textbf{Mean (s)} & \textbf{SD} & \textbf{Gap (\%)} & \textbf{Mean (s)} & \textbf{SD} & \textbf{Gap (\%)} & \textbf{Mean (s)} & \textbf{SD} & \textbf{Gap (\%)} \\
+\midrule
+1 & 48 & 4 & 28.1 & 46.6 & 0.00 & 77.1 & 145.5 & 0.00 & 7.7 & 1.4 & 1.49 \\
+2 & 48 & 4 & 408.8 & 779.7 & 0.36 & 354.9 & 699.2 & 0.63 & 15.7 & 7.1 & 0.91 \\
+2 & 96 & 4 & 1800.0 & 0.0 & 6.46 & 1803.7 & 1.3 & 6.74 & 52.0 & 11.5 & 7.97 \\
+3 & 96 & 4 & 1659.6 & 313.9 & 6.07 & 1254.0 & 759.8 & 5.03 & 69.6 & 43.6 & 6.48 \\
+3 & 144 & 4 & 1800.4 & 0.9 & 7.20 & 1804.4 & 2.4 & 7.76 & 55.6 & 25.2 & 8.33 \\
+4 & 144 & 4 & 1800.0 & 0.0 & 6.92 & 1807.6 & 4.7 & 7.17 & 106.2 & 39.4 & 7.47 \\
+4 & 192 & 4 & 1800.1 & 0.0 & 9.75 & 1809.8 & 5.6 & 9.28 & 89.9 & 47.2 & 11.33 \\
+5 & 192 & 4 & 1800.0 & 0.0 & 8.19 & 1807.2 & 3.7 & 9.01 & 81.7 & 35.2 & 9.36 \\
+5 & 240 & 4 & 1800.1 & 0.1 & 9.99 & 1820.5 & 5.8 & 9.64 & 241.5 & 81.9 & 10.61 \\
+6 & 240 & 4 & 1800.1 & 0.0 & 7.33 & 1830.1 & 11.9 & 7.64 & 207.7 & 127.4 & 9.14 \\
+6 & 288 & 4 & 1800.2 & 0.1 & 8.36 & 1863.9 & 35.4 & 10.08 & 299.8 & 96.5 & 11.37 \\
+7 & 288 & 4 & 1800.1 & 0.0 & 9.55 & 1881.5 & 37.2 & 8.58 & 333.6 & 177.1 & 10.05 \\
+\midrule
+1 & 72 & 6 & 60.0 & 100.7 & 0.00 & 60.2 & 100.1 & 0.00 & 9.8 & 5.8 & 3.43 \\
+2 & 72 & 6 & 1173.4 & 861.4 & 4.62 & 1269.1 & 770.2 & 4.40 & 36.9 & 21.9 & 6.84 \\
+2 & 144 & 6 & 1800.0 & 0.0 & 6.85 & 1803.8 & 2.7 & 7.16 & 68.4 & 53.8 & 8.39 \\
+3 & 144 & 6 & 1800.0 & 0.0 & 4.49 & 1805.2 & 3.7 & 5.32 & 52.3 & 22.6 & 7.56 \\
+3 & 216 & 6 & 1800.0 & 0.0 & 8.88 & 1813.7 & 3.0 & 11.64 & 163.6 & 104.6 & 12.65 \\
+4 & 216 & 6 & 1800.1 & 0.0 & 9.08 & 1815.7 & 3.9 & 9.72 & 156.6 & 57.6 & 9.95 \\
+4 & 288 & 6 & 1800.2 & 0.2 & 9.48 & 1813.7 & 2.9 & 11.80 & 137.4 & 59.9 & 12.24 \\
+5 & 288 & 6 & 1800.1 & 0.1 & 10.81 & 1822.0 & 9.4 & 11.83 & 208.8 & 72.8 & 12.03 \\
+\midrule
+\multicolumn{3}{@{}l}{Mean over the 100 instances} & 1516.6 &  & 6.72 & 1515.9 &  & 7.17 & 119.7 &  & 8.38 \\
+\bottomrule
+\end{tabular*}
+\end{table*}

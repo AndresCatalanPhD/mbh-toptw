@@ -1,0 +1,20 @@
+\begin{table*}[!ht]
+\centering
+\caption{Scalability on the pr06 family (7 aircraft, 4 bases, heterogeneous fleet) as the number of areas grows. Time limit 3{,}600~s for the MILP and for the CG loop. The MILP gap is the solver gap; the CG UB is the certified bound; the CG-TS gap is measured against the best upper bound.\label{tab3}}
+\small\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}r rrr rrr rrr@{\extracolsep\fill}}
+\toprule
+& \multicolumn{3}{c}{\textbf{MILP}} & \multicolumn{3}{c}{\textbf{CG}} & \multicolumn{3}{c@{}}{\textbf{CG-TS}} \\
+\cmidrule{2-4}\cmidrule{5-7}\cmidrule{8-10}
+\textbf{Areas} & \textbf{Value} & \textbf{Time (s)} & \textbf{Gap (\%)} & \textbf{Value} & \textbf{Time (s)} & \textbf{UB} & \textbf{Value} & \textbf{Time (s)} & \textbf{Gap (\%)} \\
+\midrule
+40 & 236 & 2.9 & 0.00 & 236 & 5.7 & 236.00 & 236 & 1.0 & 0.00 \\
+80 & 303 & 762.6 & 0.00 & 303 & 22.3 & 306.28 & 301 & 1.3 & 0.66 \\
+120 & 321 & 2180.0 & 0.00 & 320 & 34.9 & 324.00 & 311 & 2.1 & 3.12 \\
+160 & 376 & 1168.8 & 0.00 & 376 & 49.2 & 376.50 & 370 & 4.5 & 1.60 \\
+200 & 427 & 3600.3 & 1.39 & 427 & 119.6 & 431.75 & 417 & 4.6 & 3.42 \\
+240 & 477 & 3600.4 & 2.05 & 478 & 203.2 & 480.20 & 463 & 4.2 & 3.58 \\
+280 & 483 & 3600.1 & 2.42 & 487 & 232.5 & 487.00 & 472 & 6.0 & 3.08 \\
+\bottomrule
+\end{tabular*}
+\end{table*}

@@ -1,0 +1,38 @@
+\begin{table*}[!ht]
+\centering
+\caption{Results on the heterogeneous adapted Cordeau instances (time limit 3{,}600~s for the MILP and for the CG loop). MILP gap: solver gap at termination. CG UB: certified upper bound of the set-packing reformulation (LP bound when the pricing is proved, Lagrangian bound otherwise). CG and CG-TS gaps are measured against the best upper bound, i.e.\ the smaller of the MILP bound and the CG UB. Best values per instance in bold.\label{tab2}}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l rrr rrrr rrr@{\extracolsep\fill}}
+\toprule
+& \multicolumn{3}{c}{\textbf{MILP}} & \multicolumn{4}{c}{\textbf{CG}} & \multicolumn{3}{c@{}}{\textbf{CG-TS}} \\
+\cmidrule{2-4}\cmidrule{5-8}\cmidrule{9-11}
+\textbf{Instance} & \textbf{Value} & \textbf{Time (s)} & \textbf{Gap (\%)} & \textbf{Value} & \textbf{Time (s)} & \textbf{UB} & \textbf{Gap (\%)} & \textbf{Value} & \textbf{Time (s)} & \textbf{Gap (\%)} \\
+\midrule
+pr01 & \textbf{134} & 0.6 & 0.00 & \textbf{134} & 1.5 & 134.33 & 0.00 & \textbf{134} & 3.9 & 0.00 \\
+pr02 & \textbf{189} & 19.8 & 0.00 & 188 & 14.8 & 189.50 & 0.53 & 186 & 4.8 & 1.59 \\
+pr03 & \textbf{300} & 1593.4 & 0.00 & 298 & 39.7 & 300.85 & 0.67 & 297 & 10.3 & 1.00 \\
+pr04 & \textbf{351} & 3600.1 & 1.13 & \textbf{351} & 89.5 & 354.59 & 1.01 & 345 & 4.2 & 2.70 \\
+pr05 & 539 & 3600.4 & 3.92 & \textbf{543} & 476.5 & 550.98 & 1.45 & 539 & 20.9 & 2.17 \\
+pr06 & 488 & 3600.2 & 2.59 & \textbf{492} & 140.9 & 493.10 & 0.22 & 488 & 2.8 & 1.03 \\
+pr07 & \textbf{142} & 1.5 & 0.00 & \textbf{142} & 4.7 & 146.00 & 0.00 & 136 & 2.3 & 4.23 \\
+pr08 & \textbf{274} & 570.1 & 0.00 & 271 & 128.2 & 276.88 & 1.09 & 267 & 8.5 & 2.55 \\
+pr09 & \textbf{293} & 3442.6 & 0.00 & 291 & 95.7 & 294.96 & 0.68 & 292 & 2.4 & 0.34 \\
+pr10 & \textbf{423} & 3600.6 & 2.08 & \textbf{423} & 111.0 & 426.32 & 0.78 & 417 & 15.9 & 2.19 \\
+pr11 & \textbf{97} & 0.8 & 0.00 & \textbf{97} & 1.4 & 97.00 & 0.00 & \textbf{97} & 3.1 & 0.00 \\
+pr12 & \textbf{127} & 0.7 & 0.00 & \textbf{127} & 2.9 & 127.00 & 0.00 & \textbf{127} & 1.5 & 0.00 \\
+pr13 & \textbf{259} & 2373.8 & 0.00 & \textbf{259} & 1627.6 & 259.00 & 0.00 & 256 & 12.7 & 1.16 \\
+pr14 & 321 & 3600.2 & 3.89 & \textbf{324} & 538.4 & 329.67 & 1.72 & \textbf{324} & 8.5 & 1.72 \\
+pr15 & 454 & 3600.1 & 6.39 & \textbf{469} & 3430.5 & 476.74$^{\dagger}$ & 1.62 & 459 & 45.0 & 3.72 \\
+pr16 & 454 & 3600.7 & 3.20 & \textbf{455} & 441.5 & 460.55 & 1.20 & 453 & 11.9 & 1.64 \\
+pr17 & \textbf{112} & 1.1 & 0.00 & \textbf{112} & 2.6 & 112.00 & 0.00 & \textbf{112} & 2.9 & 0.00 \\
+pr18 & \textbf{187} & 70.6 & 0.00 & \textbf{187} & 22.0 & 189.67 & 0.00 & 184 & 7.3 & 1.60 \\
+pr19 & 240 & 3600.2 & 6.61 & \textbf{248} & 1293.6 & 248.00 & 0.00 & 239 & 7.6 & 3.63 \\
+pr20 & 380 & 3600.3 & 5.94 & \textbf{391} & 1438.5 & 394.00 & 0.76 & 384 & 25.8 & 2.54 \\
+\midrule
+Mean & & 2023.9 & 1.79 & & 495.1 & & 0.59 & & 10.1 & 1.69 \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item {\it Note:} $^{\dagger}$ pricing not proved within the time limit (Lagrangian bound). A MILP gap of 0.00 denotes a proven optimum.
+\end{tablenotes}
+\end{table*}
