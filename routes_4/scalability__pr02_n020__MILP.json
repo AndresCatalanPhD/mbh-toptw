@@ -1,0 +1,1 @@
+[{"r": 0, "start": 3, "end": 0, "route": [10, 9], "score": 28.0, "dur": 475.27, "feasible": true}, {"r": 1, "start": 0, "end": 0, "route": [15], "score": 21.0, "dur": 346.69, "feasible": true}, {"r": 2, "start": 1, "end": 0, "route": [1, 18, 8], "score": 53.0, "dur": 566.91, "feasible": true}]
