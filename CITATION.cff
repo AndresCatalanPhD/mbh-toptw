@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use these instances, code or results, please cite them as below."
+title: "MBH-TOPTW: instances, code and results for the Multi-Base Heterogeneous Team Orienteering Problem with Time Windows"
+authors:
+  - family-names: Canut-de-Bon
+    given-names: Dario A.
+  - family-names: Catalan
+    given-names: Andres H.
+  - family-names: Yuraszeck
+    given-names: Francisco J.
+  - family-names: Smith
+    given-names: Alice E.
+year: 2026
+version: "1.0"
+license: MIT
