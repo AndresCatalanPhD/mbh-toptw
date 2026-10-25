@@ -1,0 +1,341 @@
+{
+ "planning_day_of_year": 172,
+ "clock": "UTC-4",
+ "crew_limit_min": 480.0,
+ "pmin_rule": "0.8 if area<=150000 km2 else 0.6",
+ "areas": [
+  {
+   "id": 1,
+   "sector": "Rapa Nui NE",
+   "mpa": "Pascua (Rapa Nui / Motu Motiro Hiva)",
+   "lat": -25.6,
+   "lon": -107.8,
+   "area_km2": 178174,
+   "importance": 5,
+   "pmin": 0.6,
+   "score": 15,
+   "tw_open": 596,
+   "tw_close": 1158,
+   "tau_min": {
+    "P-3ACH Orion": 70.5,
+    "C-295 Persuader": 102.0,
+    "AS365 Dauphin": 489.8
+   }
+  },
+  {
+   "id": 2,
+   "sector": "Rapa Nui NW",
+   "mpa": "Pascua (Rapa Nui / Motu Motiro Hiva)",
+   "lat": -25.6,
+   "lon": -110.9,
+   "area_km2": 178174,
+   "importance": 5,
+   "pmin": 0.6,
+   "score": 15,
+   "tw_open": 609,
+   "tw_close": 1171,
+   "tau_min": {
+    "P-3ACH Orion": 70.5,
+    "C-295 Persuader": 102.0,
+    "AS365 Dauphin": 489.8
+   }
+  },
+  {
+   "id": 3,
+   "sector": "Rapa Nui SE",
+   "mpa": "Pascua (Rapa Nui / Motu Motiro Hiva)",
+   "lat": -28.6,
+   "lon": -107.8,
+   "area_km2": 178174,
+   "importance": 5,
+   "pmin": 0.6,
+   "score": 15,
+   "tw_open": 603,
+   "tw_close": 1152,
+   "tau_min": {
+    "P-3ACH Orion": 70.5,
+    "C-295 Persuader": 102.0,
+    "AS365 Dauphin": 489.8
+   }
+  },
+  {
+   "id": 4,
+   "sector": "Rapa Nui SW",
+   "mpa": "Pascua (Rapa Nui / Motu Motiro Hiva)",
+   "lat": -28.6,
+   "lon": -110.9,
+   "area_km2": 178174,
+   "importance": 5,
+   "pmin": 0.6,
+   "score": 15,
+   "tw_open": 615,
+   "tw_close": 1164,
+   "tau_min": {
+    "P-3ACH Orion": 70.5,
+    "C-295 Persuader": 102.0,
+    "AS365 Dauphin": 489.8
+   }
+  },
+  {
+   "id": 5,
+   "sector": "Desventuradas E",
+   "mpa": "Nazca-Desventuradas",
+   "lat": -26.3,
+   "lon": -79.9,
+   "area_km2": 150000,
+   "importance": 5,
+   "pmin": 0.8,
+   "score": 20,
+   "tw_open": 486,
+   "tw_close": 1011,
+   "tau_min": {
+    "P-3ACH Orion": 104.3,
+    "C-295 Persuader": 150.9,
+    "AS365 Dauphin": 724.2
+   }
+  },
+  {
+   "id": 6,
+   "sector": "Nazca ridge W",
+   "mpa": "Nazca-Desventuradas",
+   "lat": -26.8,
+   "lon": -82.0,
+   "area_km2": 150000,
+   "importance": 5,
+   "pmin": 0.8,
+   "score": 20,
+   "tw_open": 496,
+   "tw_close": 1019,
+   "tau_min": {
+    "P-3ACH Orion": 104.3,
+    "C-295 Persuader": 150.9,
+    "AS365 Dauphin": 724.2
+   }
+  },
+  {
+   "id": 7,
+   "sector": "Robinson Crusoe",
+   "mpa": "Juan Fernandez",
+   "lat": -33.6,
+   "lon": -78.8,
+   "area_km2": 225000,
+   "importance": 5,
+   "pmin": 0.6,
+   "score": 15,
+   "tw_open": 499,
+   "tw_close": 1005,
+   "tau_min": {
+    "P-3ACH Orion": 89.1,
+    "C-295 Persuader": 128.9,
+    "AS365 Dauphin": 618.5
+   }
+  },
+  {
+   "id": 8,
+   "sector": "Alejandro Selkirk",
+   "mpa": "Juan Fernandez",
+   "lat": -33.8,
+   "lon": -80.8,
+   "area_km2": 225000,
+   "importance": 5,
+   "pmin": 0.6,
+   "score": 15,
+   "tw_open": 508,
+   "tw_close": 1012,
+   "tau_min": {
+    "P-3ACH Orion": 89.1,
+    "C-295 Persuader": 128.9,
+    "AS365 Dauphin": 618.5
+   }
+  },
+  {
+   "id": 9,
+   "sector": "Francisco Coloane",
+   "mpa": "Francisco Coloane",
+   "lat": -53.65,
+   "lon": -72.3,
+   "area_km2": 15,
+   "importance": 4,
+   "pmin": 0.8,
+   "score": 16,
+   "tw_open": 548,
+   "tw_close": 994,
+   "tau_min": {
+    "P-3ACH Orion": 0.0,
+    "C-295 Persuader": 0.0,
+    "AS365 Dauphin": 0.1
+   }
+  },
+  {
+   "id": 10,
+   "sector": "Diego Ramirez",
+   "mpa": "Cabo de Hornos - Diego Ramirez",
+   "lat": -56.5,
+   "lon": -68.7,
+   "area_km2": 50500,
+   "importance": 5,
+   "pmin": 0.8,
+   "score": 20,
+   "tw_open": 551,
+   "tw_close": 926,
+   "tau_min": {
+    "P-3ACH Orion": 35.1,
+    "C-295 Persuader": 50.8,
+    "AS365 Dauphin": 243.8
+   }
+  },
+  {
+   "id": 11,
+   "sector": "Paso Drake E",
+   "mpa": "Cabo de Hornos - Diego Ramirez",
+   "lat": -56.0,
+   "lon": -67.0,
+   "area_km2": 50500,
+   "importance": 4,
+   "pmin": 0.8,
+   "score": 16,
+   "tw_open": 541,
+   "tw_close": 922,
+   "tau_min": {
+    "P-3ACH Orion": 35.1,
+    "C-295 Persuader": 50.8,
+    "AS365 Dauphin": 243.8
+   }
+  },
+  {
+   "id": 12,
+   "sector": "Isla Chanaral",
+   "mpa": "Isla Chanaral",
+   "lat": -29.03,
+   "lon": -71.57,
+   "area_km2": 29,
+   "importance": 3,
+   "pmin": 0.8,
+   "score": 12,
+   "tw_open": 459,
+   "tw_close": 1076,
+   "tau_min": {
+    "P-3ACH Orion": 0.0,
+    "C-295 Persuader": 0.0,
+    "AS365 Dauphin": 0.1
+   }
+  },
+  {
+   "id": 13,
+   "sector": "Isla Choros",
+   "mpa": "Isla Choros",
+   "lat": -29.26,
+   "lon": -71.54,
+   "area_km2": 39,
+   "importance": 3,
+   "pmin": 0.8,
+   "score": 12,
+   "tw_open": 459,
+   "tw_close": 1075,
+   "tau_min": {
+    "P-3ACH Orion": 0.0,
+    "C-295 Persuader": 0.0,
+    "AS365 Dauphin": 0.2
+   }
+  },
+  {
+   "id": 14,
+   "sector": "La Rinconada",
+   "mpa": "La Rinconada",
+   "lat": -23.47,
+   "lon": -70.5,
+   "area_km2": 3,
+   "importance": 3,
+   "pmin": 0.8,
+   "score": 12,
+   "tw_open": 443,
+   "tw_close": 1084,
+   "tau_min": {
+    "P-3ACH Orion": 0.0,
+    "C-295 Persuader": 0.0,
+    "AS365 Dauphin": 0.0
+   }
+  }
+ ],
+ "bases": [
+  {
+   "id": 15,
+   "name": "Iquique",
+   "lat": -20.53527777777778,
+   "lon": -70.18138888888889
+  },
+  {
+   "id": 16,
+   "name": "Concon (Torquemada)",
+   "lat": -32.94972222222222,
+   "lon": -71.4786111111111
+  },
+  {
+   "id": 17,
+   "name": "Maquehue (Temuco)",
+   "lat": -38.76694444444444,
+   "lon": -72.63722222222223
+  },
+  {
+   "id": 18,
+   "name": "Punta Arenas",
+   "lat": -53.0025,
+   "lon": -70.85444444444444
+  },
+  {
+   "id": 19,
+   "name": "Mataveri (Rapa Nui)",
+   "lat": -27.165,
+   "lon": -109.422
+  }
+ ],
+ "aircraft": [
+  {
+   "idx": 0,
+   "cls": "P-3ACH Orion",
+   "base": "Concon (Torquemada)",
+   "endurance_min": 720.0,
+   "route_limit_min": 480.0,
+   "speed_kmh": 463.0,
+   "rho_km": 150.0
+  },
+  {
+   "idx": 1,
+   "cls": "P-3ACH Orion",
+   "base": "Mataveri (Rapa Nui)",
+   "endurance_min": 720.0,
+   "route_limit_min": 480.0,
+   "speed_kmh": 463.0,
+   "rho_km": 150.0
+  },
+  {
+   "idx": 2,
+   "cls": "C-295 Persuader",
+   "base": "Iquique",
+   "endurance_min": 480.0,
+   "route_limit_min": 480.0,
+   "speed_kmh": 480.0,
+   "rho_km": 100.0
+  },
+  {
+   "idx": 3,
+   "cls": "C-295 Persuader",
+   "base": "Punta Arenas",
+   "endurance_min": 480.0,
+   "route_limit_min": 480.0,
+   "speed_kmh": 480.0,
+   "rho_km": 100.0
+  },
+  {
+   "idx": 4,
+   "cls": "AS365 Dauphin",
+   "base": "Punta Arenas",
+   "endurance_min": 240.0,
+   "route_limit_min": 240.0,
+   "speed_kmh": 250.0,
+   "rho_km": 40.0
+  }
+ ],
+ "projection": "azimuthal equidistant, centre = mean of all points",
+ "koopman": "tau = -A ln(1-Pmin)/(2 rho v)"
+}
