@@ -23,10 +23,12 @@ code/mbh_instances.py        instance generators (heterogeneous profiles, scalab
 code/mbh_experiments.py      campaign driver with checkpointing, statistics, LaTeX export
 code/run_campaign.py         command-line campaign (PC with Gurobi)
 code/MBH_Experiments_Colab.ipynb   the notebook used for the experiments (Google Colab + Gurobi WLS licence)
+code/MBH_case_study_v2_Colab.ipynb the notebook that rebuilds and solves the case study (version 2)
+code/mbh_enumerate.py        complete enumeration of the optimal plans of the case study
 code/test_*.py               tests against complete enumeration and a solver-free check of the model structure
 results/runs_clean.csv       one row per run (408 runs): value, bound, gap, time, status, iterations, columns
 results/routes/              the routes of every run (JSON)
-results/real_instance/       the real instance as solved and its metadata
+results/real_instance/       the real instance as solved, its metadata and the enumeration of its optimal plans
 results/paper_tables/        the LaTeX tables of the paper, generated from runs_clean.csv
 results/SUMMARY.txt          summary printed by the notebook
 ```
@@ -54,6 +56,16 @@ python run_campaign.py --inst ../instances --out ../results_new --campaigns benc
 ```
 
 The notebook `MBH_Experiments_Colab.ipynb` runs the same campaign on Google Colab with checkpointing to Google Drive.
+
+## Changes in version 1.1 (case study)
+
+The case-study instance (`real_chile`) now uses the areas of the creation decrees of the marine parks, rounded to the
+nearest thousand km2: Rapa Nui with Motu Motiro Hiva 729,000; Nazca-Desventuradas 300,000; Juan Fernandez 286,000
+(marine park 262,000 + multiple-use area 24,000); Diego Ramirez-Paso Drake 144,000. The Paso Drake sector is the southern
+half of the austral park and its reference point is the centroid of that half (58.69 S, 70.30 W); in version 1.0 it lay
+near Cape Horn, outside the park. The optimum is 196 of 228 (version 1.0: 188 of 218). `mbh_enumerate.py` enumerates its
+optimal plans: 8 plans, 4 of them with the helicopter on the ground.
+Benchmark, scalability and random campaigns are unchanged.
 
 ## Licence
 

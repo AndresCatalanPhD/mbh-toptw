@@ -1,0 +1,483 @@
+{
+ "optimum": 196.0,
+ "total_score": 228.0,
+ "n_plans": 8,
+ "plans_by_flying_aircraft": {
+  "4": 4,
+  "5": 4
+ },
+ "best_with_one_fewer": 168.0,
+ "flight_min": 1675.56,
+ "flight_max": 1749.49,
+ "seconds": 0.73,
+ "plans": [
+  [
+   {
+    "r": 0,
+    "start": "Concon (Torquemada)",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "Alejandro Selkirk",
+     "Robinson Crusoe"
+    ],
+    "score": 40.0,
+    "dur": 424.46
+   },
+   {
+    "r": 1,
+    "start": "Mataveri (Rapa Nui)",
+    "end": "Mataveri (Rapa Nui)",
+    "route": [
+     "Rapa Nui NW",
+     "Rapa Nui NE",
+     "Rapa Nui SE",
+     "Rapa Nui SW"
+    ],
+    "score": 60.0,
+    "dur": 471.0
+   },
+   {
+    "r": 2,
+    "start": "Iquique",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "Desventuradas E",
+     "Isla Chanaral",
+     "Isla Choros"
+    ],
+    "score": 44.0,
+    "dur": 463.17
+   },
+   {
+    "r": 3,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Diego Ramirez",
+     "Paso Drake"
+    ],
+    "score": 36.0,
+    "dur": 309.31
+   },
+   {
+    "r": 4,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Francisco Coloane"
+    ],
+    "score": 16.0,
+    "dur": 58.92
+   }
+  ],
+  [
+   {
+    "r": 0,
+    "start": "Concon (Torquemada)",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "Alejandro Selkirk",
+     "Robinson Crusoe"
+    ],
+    "score": 40.0,
+    "dur": 424.46
+   },
+   {
+    "r": 1,
+    "start": "Mataveri (Rapa Nui)",
+    "end": "Mataveri (Rapa Nui)",
+    "route": [
+     "Rapa Nui NW",
+     "Rapa Nui NE",
+     "Rapa Nui SE",
+     "Rapa Nui SW"
+    ],
+    "score": 60.0,
+    "dur": 471.0
+   },
+   {
+    "r": 2,
+    "start": "Iquique",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "Desventuradas E",
+     "Isla Chanaral",
+     "Isla Choros"
+    ],
+    "score": 44.0,
+    "dur": 463.17
+   },
+   {
+    "r": 3,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Diego Ramirez",
+     "Paso Drake",
+     "Francisco Coloane"
+    ],
+    "score": 52.0,
+    "dur": 316.94
+   },
+   {
+    "r": 4,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [],
+    "score": 0.0,
+    "dur": 0.0
+   }
+  ],
+  [
+   {
+    "r": 0,
+    "start": "Concon (Torquemada)",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "Alejandro Selkirk",
+     "Robinson Crusoe"
+    ],
+    "score": 40.0,
+    "dur": 424.46
+   },
+   {
+    "r": 1,
+    "start": "Mataveri (Rapa Nui)",
+    "end": "Mataveri (Rapa Nui)",
+    "route": [
+     "Rapa Nui NW",
+     "Rapa Nui NE",
+     "Rapa Nui SE",
+     "Rapa Nui SW"
+    ],
+    "score": 60.0,
+    "dur": 471.0
+   },
+   {
+    "r": 2,
+    "start": "Iquique",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "La Rinconada",
+     "Desventuradas E",
+     "Isla Choros"
+    ],
+    "score": 44.0,
+    "dur": 479.88
+   },
+   {
+    "r": 3,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Diego Ramirez",
+     "Paso Drake"
+    ],
+    "score": 36.0,
+    "dur": 309.31
+   },
+   {
+    "r": 4,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Francisco Coloane"
+    ],
+    "score": 16.0,
+    "dur": 58.92
+   }
+  ],
+  [
+   {
+    "r": 0,
+    "start": "Concon (Torquemada)",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "Alejandro Selkirk",
+     "Robinson Crusoe"
+    ],
+    "score": 40.0,
+    "dur": 424.46
+   },
+   {
+    "r": 1,
+    "start": "Mataveri (Rapa Nui)",
+    "end": "Mataveri (Rapa Nui)",
+    "route": [
+     "Rapa Nui NW",
+     "Rapa Nui NE",
+     "Rapa Nui SE",
+     "Rapa Nui SW"
+    ],
+    "score": 60.0,
+    "dur": 471.0
+   },
+   {
+    "r": 2,
+    "start": "Iquique",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "La Rinconada",
+     "Desventuradas E",
+     "Isla Choros"
+    ],
+    "score": 44.0,
+    "dur": 479.88
+   },
+   {
+    "r": 3,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Diego Ramirez",
+     "Paso Drake",
+     "Francisco Coloane"
+    ],
+    "score": 52.0,
+    "dur": 316.94
+   },
+   {
+    "r": 4,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [],
+    "score": 0.0,
+    "dur": 0.0
+   }
+  ],
+  [
+   {
+    "r": 0,
+    "start": "Concon (Torquemada)",
+    "end": "Maquehue (Temuco)",
+    "route": [
+     "Robinson Crusoe",
+     "Alejandro Selkirk"
+    ],
+    "score": 40.0,
+    "dur": 430.39
+   },
+   {
+    "r": 1,
+    "start": "Mataveri (Rapa Nui)",
+    "end": "Mataveri (Rapa Nui)",
+    "route": [
+     "Rapa Nui NW",
+     "Rapa Nui NE",
+     "Rapa Nui SE",
+     "Rapa Nui SW"
+    ],
+    "score": 60.0,
+    "dur": 471.0
+   },
+   {
+    "r": 2,
+    "start": "Iquique",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "Desventuradas E",
+     "Isla Chanaral",
+     "Isla Choros"
+    ],
+    "score": 44.0,
+    "dur": 463.17
+   },
+   {
+    "r": 3,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Diego Ramirez",
+     "Paso Drake"
+    ],
+    "score": 36.0,
+    "dur": 309.31
+   },
+   {
+    "r": 4,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Francisco Coloane"
+    ],
+    "score": 16.0,
+    "dur": 58.92
+   }
+  ],
+  [
+   {
+    "r": 0,
+    "start": "Concon (Torquemada)",
+    "end": "Maquehue (Temuco)",
+    "route": [
+     "Robinson Crusoe",
+     "Alejandro Selkirk"
+    ],
+    "score": 40.0,
+    "dur": 430.39
+   },
+   {
+    "r": 1,
+    "start": "Mataveri (Rapa Nui)",
+    "end": "Mataveri (Rapa Nui)",
+    "route": [
+     "Rapa Nui NW",
+     "Rapa Nui NE",
+     "Rapa Nui SE",
+     "Rapa Nui SW"
+    ],
+    "score": 60.0,
+    "dur": 471.0
+   },
+   {
+    "r": 2,
+    "start": "Iquique",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "Desventuradas E",
+     "Isla Chanaral",
+     "Isla Choros"
+    ],
+    "score": 44.0,
+    "dur": 463.17
+   },
+   {
+    "r": 3,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Diego Ramirez",
+     "Paso Drake",
+     "Francisco Coloane"
+    ],
+    "score": 52.0,
+    "dur": 316.94
+   },
+   {
+    "r": 4,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [],
+    "score": 0.0,
+    "dur": 0.0
+   }
+  ],
+  [
+   {
+    "r": 0,
+    "start": "Concon (Torquemada)",
+    "end": "Maquehue (Temuco)",
+    "route": [
+     "Robinson Crusoe",
+     "Alejandro Selkirk"
+    ],
+    "score": 40.0,
+    "dur": 430.39
+   },
+   {
+    "r": 1,
+    "start": "Mataveri (Rapa Nui)",
+    "end": "Mataveri (Rapa Nui)",
+    "route": [
+     "Rapa Nui NW",
+     "Rapa Nui NE",
+     "Rapa Nui SE",
+     "Rapa Nui SW"
+    ],
+    "score": 60.0,
+    "dur": 471.0
+   },
+   {
+    "r": 2,
+    "start": "Iquique",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "La Rinconada",
+     "Desventuradas E",
+     "Isla Choros"
+    ],
+    "score": 44.0,
+    "dur": 479.88
+   },
+   {
+    "r": 3,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Diego Ramirez",
+     "Paso Drake"
+    ],
+    "score": 36.0,
+    "dur": 309.31
+   },
+   {
+    "r": 4,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Francisco Coloane"
+    ],
+    "score": 16.0,
+    "dur": 58.92
+   }
+  ],
+  [
+   {
+    "r": 0,
+    "start": "Concon (Torquemada)",
+    "end": "Maquehue (Temuco)",
+    "route": [
+     "Robinson Crusoe",
+     "Alejandro Selkirk"
+    ],
+    "score": 40.0,
+    "dur": 430.39
+   },
+   {
+    "r": 1,
+    "start": "Mataveri (Rapa Nui)",
+    "end": "Mataveri (Rapa Nui)",
+    "route": [
+     "Rapa Nui NW",
+     "Rapa Nui NE",
+     "Rapa Nui SE",
+     "Rapa Nui SW"
+    ],
+    "score": 60.0,
+    "dur": 471.0
+   },
+   {
+    "r": 2,
+    "start": "Iquique",
+    "end": "Concon (Torquemada)",
+    "route": [
+     "La Rinconada",
+     "Desventuradas E",
+     "Isla Choros"
+    ],
+    "score": 44.0,
+    "dur": 479.88
+   },
+   {
+    "r": 3,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [
+     "Diego Ramirez",
+     "Paso Drake",
+     "Francisco Coloane"
+    ],
+    "score": 52.0,
+    "dur": 316.94
+   },
+   {
+    "r": 4,
+    "start": "Punta Arenas",
+    "end": "Punta Arenas",
+    "route": [],
+    "score": 0.0,
+    "dur": 0.0
+   }
+  ]
+ ]
+}
