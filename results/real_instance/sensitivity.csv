@@ -1,0 +1,14 @@
+group,scenario,value,available,share,min_aircraft,aircraft_available,n_plans,flight_min,flight_max,covered_min,covered_max,never_covered,helicopter_needed,longest_route
+Base,"Base case (21 June, crew duty 8 h)",196.0,228.0,85.96,4,5,8,1675.56,1749.49,12,12,Nazca ridge W,False,4
+Planning date,Daylight of 21 December,196.0,228.0,85.96,4,5,8,1675.56,1749.49,12,12,Nazca ridge W,False,4
+Crew-duty limit,Crew duty 6 h,153.0,228.0,67.11,4,5,42,1114.1,1339.3,10,10,Rapa Nui NE;Desventuradas E;Nazca ridge W,False,3
+Crew-duty limit,Crew duty 10 h,208.0,228.0,91.23,4,5,122,1744.01,1911.06,13,13,,False,5
+Minimum detection probability,Detection probability 0.7 / 0.5,178.0,196.0,90.82,4,5,56,1499.26,1862.28,13,13,,False,4
+Minimum detection probability,Detection probability 0.9 / 0.7,176.0,260.0,67.69,3,5,1200,1274.05,1787.76,10,10,,False,4
+Strategic importance,Equal importance for all sectors,220.0,260.0,84.62,4,5,274,1387.11,1797.57,12,12,,False,4
+Basing,"Second P-3ACH at Concon, not Mataveri",168.0,228.0,73.68,4,5,64,1653.2,1756.96,10,10,Rapa Nui NE;Rapa Nui NW;Rapa Nui SE;Rapa Nui SW,False,4
+Aircraft unavailable,Without P-3ACH at Concon,168.0,228.0,73.68,3,4,4,1245.6,1311.03,11,11,Desventuradas E;Nazca ridge W;Alejandro Selkirk,False,4
+Aircraft unavailable,Without P-3ACH at Mataveri,136.0,228.0,59.65,3,4,8,1204.57,1278.49,8,8,Rapa Nui NE;Rapa Nui NW;Rapa Nui SE;Rapa Nui SW;Nazca ridge W,False,4
+Aircraft unavailable,Without C-295 at Iquique,168.0,228.0,73.68,3,4,6,1212.67,1310.24,11,11,Nazca ridge W,False,4
+Aircraft unavailable,Without C-295 at Punta Arenas,160.0,228.0,70.18,4,4,4,1417.54,1440.19,10,10,Nazca ridge W;Diego Ramirez;Paso Drake,True,4
+Aircraft unavailable,Without AS365 Dauphin,196.0,228.0,85.96,4,4,4,1675.56,1698.21,12,12,Nazca ridge W,False,4

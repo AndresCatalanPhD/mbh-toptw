@@ -25,10 +25,11 @@ code/run_campaign.py         command-line campaign (PC with Gurobi)
 code/MBH_Experiments_Colab.ipynb   the notebook used for the experiments (Google Colab + Gurobi WLS licence)
 code/MBH_case_study_v2_Colab.ipynb the notebook that rebuilds and solves the case study (version 2)
 code/mbh_enumerate.py        complete enumeration of the optimal plans of the case study
+code/case_sensitivity.py     sensitivity analysis of the case study (Table 10 of the paper), by complete enumeration
 code/test_*.py               tests against complete enumeration and a solver-free check of the model structure
 results/runs_clean.csv       one row per run (408 runs): value, bound, gap, time, status, iterations, columns
 results/routes/              the routes of every run (JSON)
-results/real_instance/       the real instance as solved, its metadata and the enumeration of its optimal plans
+results/real_instance/       the real instance as solved, its metadata, the enumeration of its optimal plans and the sensitivity analysis
 results/paper_tables/        the LaTeX tables of the paper, generated from runs_clean.csv
 results/SUMMARY.txt          summary printed by the notebook
 ```
@@ -52,10 +53,18 @@ Requirements: Python 3.10+, numpy, pandas, gurobipy 12+ with a licence that is n
 cd code
 python test_model_structure.py      # solver-free check of the MILP and pricing models
 python test_cg_tiny.py              # CG and CG-TS against complete enumeration
+python case_sensitivity.py ../results/real_instance   # sensitivity analysis of the case study (no solver needed, a few seconds)
 python run_campaign.py --inst ../instances --out ../results_new --campaigns benchmark scalability random
 ```
 
 The notebook `MBH_Experiments_Colab.ipynb` runs the same campaign on Google Colab with checkpointing to Google Drive.
+
+## Changes in version 1.2
+
+Sensitivity analysis of the case study (`code/case_sensitivity.py`, results in `results/real_instance/sensitivity.csv`):
+planning date, crew-duty limit, minimum detection probability, strategic importance, basing of the second P-3ACH and
+unavailability of each aircraft. Every scenario is solved exactly by complete enumeration; the script checks that no
+feasible route reaches the length cap of the enumeration. Nothing else changes.
 
 ## Changes in version 1.1 (case study)
 
